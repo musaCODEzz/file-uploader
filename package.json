@@ -1,0 +1,19 @@
+{
+  "name": "file-uploader",
+  "version": "1.0.0",
+  "description": "File Uploader using Express Js ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Musa Maxwel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "mongoose": "^6.9.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20"
+  }
+}
